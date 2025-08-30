@@ -3,6 +3,7 @@ xvel = 0;
 yvel = 0;
 plrsp = 4;
 jump_height = 6;
+jump_timer = 1;
 
 // ***NOTE: temp player sprite has a width of 16 pixels and a height of 24 pixels***
 // these variables should be set to the width and height of the actual sprite, not necessarily
@@ -21,3 +22,10 @@ landed = false;
 canJump = true;
 jumpCnt = 0;
 maxJumps = 2;
+
+// variable to control key
+has_key = false;
+
+// add leaf trail
+part_system_create(leaf_trail);
+part_timer = random_range(50, 100);
