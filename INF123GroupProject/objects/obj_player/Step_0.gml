@@ -25,9 +25,19 @@ if(keyboard_check_pressed(obj_game.up_control) and canJump) {
 	image_index = 0;
 	jumpCnt++;
 	landed = false;
-	yvel = -jump_height;
+	yvel = -(jump_height*jump_timer);
 	falling = true;
 }
+
+if(keyboard_check(obj_game.up_control) and canJump) {
+	jump_timer += 0.02;
+}
+
+if(landed) {
+	jump_timer = 1;
+}
+
+show_debug_message(jump_timer);
 
 // check if player has jumped max count
 // if so, lock jumps until platform collision
@@ -89,3 +99,10 @@ if not(tilemap_get_at_pixel(tilemap_id, x, y + 2)) {
 // change x and y with xvel and yvel
 y += yvel;
 x += xvel;
+
+// create leaf particle trail
+part_timer--;
+if(part_timer <= 0) {
+	part_particles_burst(0, x, y - 16, leaf_trail);
+	part_timer = random_range(50, 100);
+}
