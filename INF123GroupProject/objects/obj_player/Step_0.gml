@@ -37,8 +37,6 @@ if(landed) {
 	jump_timer = 1;
 }
 
-show_debug_message(jump_timer);
-
 // check if player has jumped max count
 // if so, lock jumps until platform collision
 if(jumpCnt >= maxJumps) {
