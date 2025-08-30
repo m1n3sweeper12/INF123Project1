@@ -30,7 +30,7 @@
   ],
   "name":"spr_green_jump",
   "nineSlice":null,
-  "origin":9,
+  "origin":7,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -106,7 +106,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":4,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

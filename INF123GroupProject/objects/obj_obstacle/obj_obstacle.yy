@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_key",
+  "%Name":"obj_obstacle",
   "eventList":[],
   "managed":true,
-  "name":"obj_key",
+  "name":"obj_obstacle",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_key",
-    "path":"sprites/spr_key/spr_key.yy",
+    "name":"spr_obstacle",
+    "path":"sprites/spr_obstacle/spr_obstacle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
