@@ -22,6 +22,7 @@
     {"name":"obj_key","order":4,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_obstacle","order":5,"path":"objects/obj_obstacle/obj_obstacle.yy",},
     {"name":"obj_platform","order":1,"path":"objects/obj_platform/obj_platform.yy",},
+    {"name":"spr_background","order":5,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_enemy_temp","order":2,"path":"sprites/spr_enemy_temp/spr_enemy_temp.yy",},
     {"name":"spr_green_idle","order":4,"path":"sprites/spr_green_idle/spr_green_idle.yy",},
     {"name":"spr_green_jump","order":3,"path":"sprites/spr_green_jump/spr_green_jump.yy",},

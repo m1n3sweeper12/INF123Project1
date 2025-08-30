@@ -89,35 +89,3 @@ if not(tilemap_get_at_pixel(tilemap_id, x, y + 2)) {
 // change x and y with xvel and yvel
 y += yvel;
 x += xvel;
-
-//// check if player walked off of platform
-//if(x > instance_nearest(x, y, obj_platform).bbox_right or x < instance_nearest(x, y, obj_platform).bbox_left) and landed {
-//	falling = true;
-//	landed = false;
-//}
-
-//// everything below this point handles platform collision
-//var collision = move_and_collide(xvel * plrsp, yvel, obj_platform, 4, 0, 0, plrsp, obj_game.world_gravity);
-
-//// this checks if the player has collided with an object
-//// ***NOTE: need to fix player clipping with sides of platforms***
-//if not(array_length(collision) == 0) {
-//	// if yes and player y is < collided platform's y, then set player y to platform y - player height
-//	// and set y velocity to 0
-//	// also resets falling, canJump, and jumpCnt variables
-//	if(y < array_last(collision).y) {
-//		y = array_last(collision).y - height;
-//		yvel = 0;
-//		falling = false;
-//		canJump = true;
-//		jumpCnt = 0;
-//		landed = true;
-//	}
-//	// if yes and player y is > collided platform's y, then set player y to platform y + platform height
-//	// and set y velocity to 0, falling to true
-//	if(y > array_last(collision).y) {
-//		y = array_last(collision).y + 17; // platform is 16 pixels tall
-//		yvel = 0;
-//		falling = true;
-//	}
-//}
