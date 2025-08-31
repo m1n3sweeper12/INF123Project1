@@ -23,7 +23,7 @@
     {"name":"obj_obstacle","order":5,"path":"objects/obj_obstacle/obj_obstacle.yy",},
     {"name":"obj_portal","order":6,"path":"objects/obj_portal/obj_portal.yy",},
     {"name":"obj_portal2","order":8,"path":"objects/obj_portal2/obj_portal2.yy",},
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"level_2","order":1,"path":"rooms/level_2/level_2.yy",},
     {"name":"spr_background","order":5,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_backgroundcrystal","order":11,"path":"sprites/spr_backgroundcrystal/spr_backgroundcrystal.yy",},
     {"name":"Spr_crystalpath","order":12,"path":"sprites/Spr_crystalpath/Spr_crystalpath.yy",},
@@ -39,8 +39,8 @@
     {"name":"spr_tile1","order":13,"path":"sprites/spr_tile1/spr_tile1.yy",},
     {"name":"spr_tile2","order":14,"path":"sprites/spr_tile2/spr_tile2.yy",},
     {"name":"spr_tileset_forest","order":8,"path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},
-    {"name":"ts_forest","order":1,"path":"tilesets/ts_forest/ts_forest.yy",},
     {"name":"Tile_","order":2,"path":"tilesets/Tile_/Tile_.yy",},
     {"name":"Tile_crystal","order":1,"path":"tilesets/Tile_crystal/Tile_crystal.yy",},
+    {"name":"ts_forest","order":1,"path":"tilesets/ts_forest/ts_forest.yy",},
   ],
 }
