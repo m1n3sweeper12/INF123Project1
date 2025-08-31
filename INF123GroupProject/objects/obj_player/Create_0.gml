@@ -29,3 +29,5 @@ has_key = false;
 // add leaf trail
 part_system_create(leaf_trail);
 part_timer = random_range(50, 100);
+
+text_timer = 500;

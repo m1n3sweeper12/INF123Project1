@@ -44,7 +44,7 @@
     {"id":{"name":"obj_portal2","path":"objects/obj_portal2/obj_portal2.yy",},},
     {"id":{"name":"leaf_trail","path":"particles/leaf_trail/leaf_trail.yy",},},
     {"id":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_backgroundcrystal","path":"sprites/spr_backgroundcrystal/spr_backgroundcrystal.yy",},},
     {"id":{"name":"Spr_crystalpath","path":"sprites/Spr_crystalpath/Spr_crystalpath.yy",},},
@@ -69,7 +69,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
