@@ -35,7 +35,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_green_idle",
     "path":"sprites/spr_green_idle/spr_green_idle.yy",

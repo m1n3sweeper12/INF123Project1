@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_portal2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_tile",
+  "eventList":[],
   "managed":true,
-  "name":"obj_portal2",
+  "name":"obj_tile",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_portal2",
-    "path":"sprites/spr_portal2/spr_portal2.yy",
+    "name":"spr_tile_collision",
+    "path":"sprites/spr_tile_collision/spr_tile_collision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
