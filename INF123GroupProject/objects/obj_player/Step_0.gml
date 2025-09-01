@@ -106,3 +106,16 @@ if(part_timer <= 0) {
 	part_particles_burst(0, x, y - 16, leaf_trail);
 	part_timer = random_range(50, 100);
 }
+
+//checks players health
+if (health <= 0) {
+    // Player dies
+    instance_destroy(); // or go to game over room
+    room_goto(level_1); 
+}
+// Reduce invincibility timer every step
+if (invincible > 0) {
+    invincible -= 1;
+}
+
+
