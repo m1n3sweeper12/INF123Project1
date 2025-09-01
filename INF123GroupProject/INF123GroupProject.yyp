@@ -47,6 +47,7 @@
     {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_backgroundcrystal","path":"sprites/spr_backgroundcrystal/spr_backgroundcrystal.yy",},},
+    {"id":{"name":"spr_backgroundlvl1","path":"sprites/spr_backgroundlvl1/spr_backgroundlvl1.yy",},},
     {"id":{"name":"Spr_crystalpath","path":"sprites/Spr_crystalpath/Spr_crystalpath.yy",},},
     {"id":{"name":"spr_enemy_temp","path":"sprites/spr_enemy_temp/spr_enemy_temp.yy",},},
     {"id":{"name":"spr_green_idle","path":"sprites/spr_green_idle/spr_green_idle.yy",},},
