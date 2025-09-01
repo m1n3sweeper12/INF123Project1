@@ -1,7 +1,11 @@
 // check if door is locked, if so, print locked message
 if(obj_player.alarm[0] == 0) {
 	text_timer--;
-	draw_text_transformed(500, 620, "The door is locked!", 2, 2, 0);
+	draw_set_alpha(0.75);
+	draw_set_color(c_black);
+	draw_roundrect_ext(440, 600, 840, 680, 20, 20, false);
+	draw_set_color(c_white);
+	draw_text_transformed(475, 620, "The door is locked!", 2, 2, 0);
 	
 	// timer to remove text after 500 steps
 	if(text_timer <= 0) {
