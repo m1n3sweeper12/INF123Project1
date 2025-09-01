@@ -24,6 +24,8 @@
     {"name":"obj_portal","order":6,"path":"objects/obj_portal/obj_portal.yy",},
     {"name":"obj_portal2","order":8,"path":"objects/obj_portal2/obj_portal2.yy",},
     {"name":"level_2","order":1,"path":"rooms/level_2/level_2.yy",},
+    {"name":"sfx_jump","order":1,"path":"sounds/sfx_jump/sfx_jump.yy",},
+    {"name":"sfx_land","order":2,"path":"sounds/sfx_land/sfx_land.yy",},
     {"name":"spr_background","order":4,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_backgroundcrystal","order":12,"path":"sprites/spr_backgroundcrystal/spr_backgroundcrystal.yy",},
     {"name":"spr_backgroundlvl1","order":16,"path":"sprites/spr_backgroundlvl1/spr_backgroundlvl1.yy",},

@@ -22,6 +22,7 @@ if(xvel > 0) {
 // if player presses up control, add to jump count, allow player jump, set falling to true
 if(keyboard_check_pressed(obj_game.up_control) and canJump) {
 	sprite_index = spr_green_jump; // this changes the player's sprite to the jump sprite
+	audio_play_sound(sfx_jump, 1, false);
 	image_index = 0;
 	jumpCnt++;
 	landed = false;
@@ -86,6 +87,7 @@ if(tilemap_get_at_pixel(tilemap_id, x, y)) {
 	jumpCnt = 0;
 	y -= 2;
 	canJump = true;
+	audio_play_sound(sfx_land, 1, false);
 }
 
 // check if player walked off of a tile
