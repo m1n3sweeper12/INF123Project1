@@ -5,3 +5,8 @@ draw_self();
 if(has_key) {
 	draw_sprite(spr_key_held, 0, x + image_xscale, y - 16);
 }
+
+if (keyboard_check(vk_control))
+{
+	draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,1);
+}

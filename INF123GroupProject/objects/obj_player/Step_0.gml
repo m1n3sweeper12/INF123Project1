@@ -101,9 +101,9 @@ var collision = move_and_collide(xvel, yvel, obj_tile, 4, 0, 0, plrsp, obj_game.
 // if there is a collision, check for adjustments
 if not(array_length(collision) == 0) {
 	
-	if(place_meeting(x, y + height, obj_tile) or place_meeting(x, y - height, obj_tile)) {
+	if(place_meeting(x, y + 2, obj_tile) or place_meeting(x, y - 2, obj_tile)) {
 		// player landed
-		if(place_meeting(x, y + height, obj_tile)) {
+		if(place_meeting(x, y + 2, obj_tile)) {
 			yvel = 0;
 			landed = true;
 			falling = false;
@@ -113,21 +113,21 @@ if not(array_length(collision) == 0) {
 		}
 	
 		// player hits bottom of platform ("hit head")
-		if(place_meeting(x, y - height, obj_tile)) {
+		if(place_meeting(x, y - 2, obj_tile)) {
 			yvel = 0;
 			falling = true;
 			y += 2;
 		}
-	} else if(place_meeting(x - width, y, obj_tile) or place_meeting(x + width, y, obj_tile)) {
+	} else if(place_meeting(x - 2, y, obj_tile) or place_meeting(x + 2, y, obj_tile)) {
 	
 		// left collision
-		if(place_meeting(x - width, y, obj_tile)) {
+		if(place_meeting(x - 2, y, obj_tile)) {
 			xvel = 0;
 			x += 2;
 		}
 	
 		// right collision
-		if(place_meeting(x + width, y, obj_tile)) {
+		if(place_meeting(x + 2, y, obj_tile)) {
 			xvel = 0;
 			x -= 2;
 		}
