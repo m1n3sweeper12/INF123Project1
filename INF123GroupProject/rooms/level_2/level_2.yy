@@ -12,9 +12,6 @@
 <<<<<<< Updated upstream
 =======
     {"name":"inst_6233BE0","path":"rooms/level_2/level_2.yy",},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
   ],
   "isDnd":false,

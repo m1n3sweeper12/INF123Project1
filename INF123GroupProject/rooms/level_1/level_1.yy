@@ -18,10 +18,7 @@
     {"name":"inst_75037BA5","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_414F8FCD","path":"rooms/level_1/level_1.yy",},
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 =======
-=======
->>>>>>> Stashed changes
     {"name":"inst_43129EB5","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_1444906A","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_996042E","path":"rooms/level_1/level_1.yy",},
@@ -41,9 +38,6 @@
     {"name":"inst_2D975931","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_137A39E6","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_23B4099A","path":"rooms/level_1/level_1.yy",},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
   ],
   "isDnd":false,
