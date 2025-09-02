@@ -9,6 +9,10 @@
     {"name":"inst_C72AD8D","path":"rooms/level_2/level_2.yy",},
     {"name":"inst_4A76DCE5","path":"rooms/level_2/level_2.yy",},
     {"name":"inst_4C50AE83","path":"rooms/level_2/level_2.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"inst_6233BE0","path":"rooms/level_2/level_2.yy",},
+>>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -17,10 +21,29 @@
         {"$GMRInstance":"v2","%Name":"inst_4A76DCE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A76DCE5","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":800.0,},
         {"$GMRInstance":"v2","%Name":"inst_4C50AE83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C50AE83","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+<<<<<<< Updated upstream
     {"$GMRTileLayer":"","%Name":"Collision_Tiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Collision_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":63,"SerialiseWidth":88,"TileCompressedData":[
           -1875,-2147483648,-2,0,-86,-2147483648,1,0,-260,-2147483648,1,0,-86,-2147483648,1,0,-87,-2147483648,
           1,0,-86,-2147483648,1,0,-86,-2147483648,1,0,-86,-2147483648,1,0,-84,-2147483648,-3,0,-1217,-2147483648,
           1,0,-82,-2147483648,-523,0,1,15,-4,0,352,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+=======
+    {"$GMRInstanceLayer":"","%Name":"Tile_Collisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v2","%Name":"inst_6233BE0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6233BE0","objectId":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":63.0,"scaleY":1.0,"x":0.0,"y":832.0,},
+      ],"layers":[],"name":"Tile_Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Tile_Images","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_Images","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":69,"SerialiseWidth":125,"TileCompressedData":[
+          -32,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,
+          -90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,
+          -90,0,-35,-2147483648,-90,0,-25,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,
+          -90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,-90,0,-35,-2147483648,
+          -90,0,-35,-2147483648,-90,0,-35,-2147483648,-100,0,-25,-2147483648,-100,0,-25,-2147483648,-100,0,-25,
+          -2147483648,-100,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,
+          -122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,
+          -122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,
+          -122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,
+          -122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,
+          -122,0,-3,-2147483648,-122,0,-3,-2147483648,-122,0,-3,-2147483648,-27,0,-25,-2147483648,-50,0,-23,-2147483648,
+          2125,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,
+>>>>>>> Stashed changes
           1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,3,1,2,
           3,1,2,3,1,2,3,1,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,
           5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,6,7,5,9,10,11,
