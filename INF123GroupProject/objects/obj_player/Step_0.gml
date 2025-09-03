@@ -1,3 +1,9 @@
+if(obj_player.alarm[1] == 0) {
+	room_goto_next();
+} else if(obj_player.alarm[1] > 0) {
+	obj_player.alarm[1]--;
+}
+
 // adds gravity to the player
 if(falling) {
 	if(yvel < obj_game.world_gravity) {
@@ -8,7 +14,9 @@ if(falling) {
 }
 
 // handles keyboard input
-xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+if(canMove) {
+	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+}
 
 // handles player turning
 if(xvel < 0) {
