@@ -16,3 +16,6 @@ if(obj_player.alarm[0] == 0) {
 
 // draws player health
 draw_healthbar(20, 20, 120, 40, health, c_grey, c_maroon, c_green, 0, true, true);
+
+// reset alpha value
+draw_set_alpha(1);
