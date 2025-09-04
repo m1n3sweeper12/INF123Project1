@@ -1,3 +1,9 @@
+if(obj_player.alarm[1] == 0) {
+	room_goto_next();
+} else if(obj_player.alarm[1] > 0) {
+	obj_player.alarm[1]--;
+}
+
 // adds gravity to the player
 if(falling) {
 	if(yvel < obj_game.world_gravity) {
@@ -7,8 +13,9 @@ if(falling) {
 	yvel = 0;
 }
 
-// handles keyboard input
-// xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+if(canMove) {
+	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+}
 
 /*
 var l1D280392_0 = instance_place(x + 0, y + 0, [obj_obstacle]);
@@ -54,56 +61,6 @@ if(jumpCnt >= maxJumps) {
 	jumpCnt = maxJumps;
 	canJump = false;
 }
-
-//// get tilemap id for collision tiles
-//var tilemap_id = layer_tilemap_get_id("Collision_Tiles");
-
-//// check for left tile collision
-//if(tilemap_get_at_pixel(tilemap_id, x - width - 2, y)) {
-//	// if left and bottom collision, adjust y
-//	if(tilemap_get_at_pixel(tilemap_id, x, y)) {
-//		y -= 2;
-//	}
-//	// stop x movement, adjust x
-//	xvel = 0;
-//	x++;
-//}
-
-//// check for right tile collision
-//if(tilemap_get_at_pixel(tilemap_id, x + width + 2, y)) {
-//	// if right and bottom collision, adjust y
-//	if(tilemap_get_at_pixel(tilemap_id, x, y)) {
-//		y -= 2;
-//	}
-//	// stop x movement, adjust x
-//	xvel = 0;
-//	x--;
-//}
-
-//// check for top tile collision ("hit head")
-//if(tilemap_get_at_pixel(tilemap_id, x, y - sprite_get_bbox_top(sprite_index) - 16)) {
-//	// stop y movement, adjust y, set falling to true
-//	y += 2;
-//	yvel = 0;
-//	falling = true;
-//}
-
-//// check for bottom tile collision ("landed")
-//if(tilemap_get_at_pixel(tilemap_id, x, y)) {
-//	// set falling to false, landed to true, reset jump variables, stop y moevment, adjust y
-//	falling = false;
-//	yvel = 0;
-//	landed = true;
-//	jumpCnt = 0;
-//	y -= 2;
-//	canJump = true;
-//	audio_play_sound(sfx_land, 1, false);
-//}
-
-//// check if player walked off of a tile
-//if not(tilemap_get_at_pixel(tilemap_id, x, y + 2)) {
-//	falling = true;
-//}
 
 // check for collisions with tile object
 var collision = move_and_collide(xvel, yvel, obj_tile, 4, 0, 0, plrsp, obj_game.world_gravity);
@@ -172,14 +129,20 @@ if (invincible > 0) {
     invincible -= 1;
 }
 
-/**/
-
-/**/
-
-var l138FF398_0 = instance_place(x + 0, y + 0, [obj_obstacle]);if ((l138FF398_0 > 0)){	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*(plrsp/2);
+var l138FF398_0 = instance_place(x + 0, y + 0, [obj_obstacle]);
+if ((l138FF398_0 > 0))
+{
+	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*(plrsp/2);
 
 	landed = false;
 	yvel = -(jump_height*2/3);
-	falling = true;}
+	falling = true;
+}
 
-else{	if(invincible == 0){	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;}}
+else
+{
+	if(invincible == 0)
+{
+	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+}
+}

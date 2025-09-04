@@ -18,6 +18,10 @@ height = 32;
 falling = true;
 landed = false;
 
+// variable to track player movement
+// added for portal animation
+canMove = true;
+
 // variables to track player jumps
 canJump = true;
 jumpCnt = 0;
@@ -37,3 +41,5 @@ max_health = 30;
 
 // Invincibility cooldown
 invincible = 0;
+
+alpha_val = 0;
