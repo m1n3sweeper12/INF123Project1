@@ -12,7 +12,7 @@ width = 23;
 height = 32;
 
 // set player health
-health = 100;
+//health = 30;
 
 // variable to control jumps
 falling = true;
@@ -32,7 +32,8 @@ part_timer = random_range(50, 100);
 
 text_timer = 500;
 //start health
-health = 100;     
-max_health = 100; 
+health = 30;     
+max_health = 30;
+
 // Invincibility cooldown
 invincible = 0;

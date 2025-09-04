@@ -8,8 +8,18 @@ if(falling) {
 }
 
 // handles keyboard input
-xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+// xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
 
+/*
+var l1D280392_0 = instance_place(x + 0, y + 0, [obj_obstacle]);
+if ((l1D280392_0 > 0))
+{
+	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+	
+} else {
+	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
+}
+*/
 // handles player turning
 if(xvel < 0) {
 	image_xscale = -1;
@@ -162,4 +172,14 @@ if (invincible > 0) {
     invincible -= 1;
 }
 
+/**/
 
+/**/
+
+var l138FF398_0 = instance_place(x + 0, y + 0, [obj_obstacle]);if ((l138FF398_0 > 0)){	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*(plrsp/2);
+
+	landed = false;
+	yvel = -(jump_height*2/3);
+	falling = true;}
+
+else{	if(invincible == 0){	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;}}
