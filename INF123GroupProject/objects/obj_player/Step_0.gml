@@ -13,20 +13,23 @@ if(falling) {
 	yvel = 0;
 }
 
-if(canMove) {
+
+var l138FF398_0 = instance_place(x + 0, y + 0, [obj_obstacle]);
+if ((l138FF398_0 > 0))
+{
+	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*(plrsp/1.5);
+
+	landed = false;
+	canMove = false;
+	canJump = false;
+	yvel = -(jump_height*(2/3));
+	falling = true;
+	
+} else if(invincible == 0) & (canMove) {
 	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
 }
 
-/*
-var l1D280392_0 = instance_place(x + 0, y + 0, [obj_obstacle]);
-if ((l1D280392_0 > 0))
-{
-	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
-	
-} else {
-	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
-}
-*/
+
 // handles player turning
 if(xvel < 0) {
 	image_xscale = -1;
@@ -72,6 +75,7 @@ if not(array_length(collision) == 0) {
 		// player landed
 		if(place_meeting(x, y + 2, obj_tile)) {
 			yvel = 0;
+			canMove = true;
 			landed = true;
 			falling = false;
 			jumpCnt = 0;
@@ -127,22 +131,4 @@ if (health <= 0) {
 // Reduce invincibility timer every step
 if (invincible > 0) {
     invincible -= 1;
-}
-
-var l138FF398_0 = instance_place(x + 0, y + 0, [obj_obstacle]);
-if ((l138FF398_0 > 0))
-{
-	xvel = -(keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*(plrsp/2);
-
-	landed = false;
-	yvel = -(jump_height*2/3);
-	falling = true;
-}
-
-else
-{
-	if(invincible == 0)
-{
-	xvel = (keyboard_check(obj_game.right_control) - keyboard_check(obj_game.left_control))*plrsp;
-}
 }

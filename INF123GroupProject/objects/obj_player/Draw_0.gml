@@ -7,3 +7,6 @@ if(has_key) {
 }
 
 if (keyboard_check(vk_control)) //Debug Controls
+{
+	draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,1);
+}

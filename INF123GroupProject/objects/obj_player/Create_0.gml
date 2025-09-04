@@ -41,5 +41,6 @@ max_health = 30;
 
 // Invincibility cooldown
 invincible = 0;
+//inPain = false;
 
 alpha_val = 0;
