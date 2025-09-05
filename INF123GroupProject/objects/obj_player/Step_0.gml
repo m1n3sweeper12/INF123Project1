@@ -125,8 +125,7 @@ if(part_timer <= 0) {
 //checks players health
 if (health <= 0) {
     // Player dies
-    instance_destroy(); // or go to game over room
-    room_goto(level_1); 
+	obj_player.alarm[3] = 1; // alarm for player death
 }
 // Reduce invincibility timer every step
 if (invincible > 0) {

@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Spr_crystalpath",
-    "path":"sprites/Spr_crystalpath/Spr_crystalpath.yy",
+    "name":"spr_crystalpath",
+    "path":"sprites/spr_crystalpath/spr_crystalpath.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

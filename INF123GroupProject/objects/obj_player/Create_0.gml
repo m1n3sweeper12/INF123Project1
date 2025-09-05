@@ -43,4 +43,6 @@ max_health = 100;
 invincible = 0;
 //inPain = false;
 
+hurt_timer = 120;
+
 alpha_val = 0;
