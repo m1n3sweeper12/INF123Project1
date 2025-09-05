@@ -7,7 +7,7 @@ if(obj_player.alarm[1] == 0) {
 // adds gravity to the player
 if(falling) {
 	if(yvel < obj_game.world_gravity) {
-		yvel += 0.2; // adds 0.2 until it reaches gravity limit (set in obj_game Create)
+		yvel += gravity_mod; // adds 0.2 until it reaches gravity limit (set in obj_game Create)
 	}
 } else { // if not falling, reset yvel
 	yvel = 0;
@@ -62,19 +62,21 @@ if(keyboard_check_pressed(obj_game.up_control) and canJump) {
 
 }
 
-if(keyboard_check_pressed(obj_game.up_control) and (fairy_type = 1) and (falling = true)) {
-	plrsp = plrsp*1.5;
+
+// Wind Fairy dash
+if(keyboard_check_pressed(obj_game.up_control) and (fairy_type = 1) and (landed = false) and (canJump = false) and (canDash = true)) {
+	plrsp = plrsp*3;
+	falling = false;
+	yvel = 0;
+	gravity_mod = 0;
+	alarm_set(2, 15);
 }
 
-/*
-if(keyboard_check(obj_game.up_control) and canJump) {
-	jump_timer += 0.02;
+// Resets speed when dash is off.
+if (canDash = false){
+	plrsp = 4;
 }
 
-if(landed) {
-	jump_timer = 1;
-}
-*/
 
 // check if player has jumped max count
 // if so, lock jumps until platform collision
@@ -106,6 +108,7 @@ if not(array_length(collision) == 0) {
 			falling = false;
 			jumpCnt = 0;
 			canJump = true;
+			canDash = true;
 			plrsp = 4;
 			y -= 2;
 		}
@@ -114,6 +117,7 @@ if not(array_length(collision) == 0) {
 		if(place_meeting(x, y - 2, obj_tile)) {
 			yvel = 0;
 			falling = true;
+			KillDash();
 			y += 2;
 		}
 	} else if(place_meeting(x - 2, y, obj_tile) or place_meeting(x + 2, y, obj_tile)) {
@@ -122,12 +126,14 @@ if not(array_length(collision) == 0) {
 		if(place_meeting(x - 2, y, obj_tile)) {
 			xvel = 0;
 			x += 2;
+			KillDash();
 		}
 	
 		// right collision
 		if(place_meeting(x + 2, y, obj_tile)) {
 			xvel = 0;
 			x -= 2;
+			KillDash();
 		}
 	}
 	
@@ -138,9 +144,6 @@ if not(array_length(collision) == 0) {
 	}
 }
 
-//change x and y with xvel and yvel
-//y += yvel;
-//x += xvel;
 
 // create leaf particle trail
 part_timer--;
@@ -159,3 +162,4 @@ if (health <= 0) {
 if (invincible > 0) {
     invincible -= 1;
 }
+

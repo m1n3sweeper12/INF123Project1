@@ -3,12 +3,10 @@ if (falling = false){
 		fairy_type = 1;
 		sprite_index = spr_white_idle;
 		maxJumps = 1;
-		canDash = false;
 	}
 	else if (fairy_type = 1){  //If you are air and switch to forrest
 		fairy_type = 0;
 		sprite_index = spr_green_idle;
 		maxJumps = 2;
-		canDash = true;
 	}
 }
