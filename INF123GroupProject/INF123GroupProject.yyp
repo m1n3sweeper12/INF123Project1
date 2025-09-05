@@ -88,6 +88,8 @@
     {"id":{"name":"spr_tile2","path":"sprites/spr_tile2/spr_tile2.yy",},},
     {"id":{"name":"spr_tilelvl3","path":"sprites/spr_tilelvl3/spr_tilelvl3.yy",},},
     {"id":{"name":"spr_tileset_forest","path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},},
+    {"id":{"name":"spr_white_idle","path":"sprites/spr_white_idle/spr_white_idle.yy",},},
+    {"id":{"name":"spr_white_jump","path":"sprites/spr_white_jump/spr_white_jump.yy",},},
     {"id":{"name":"Tile_","path":"tilesets/Tile_/Tile_.yy",},},
     {"id":{"name":"Tile_crystal","path":"tilesets/Tile_crystal/Tile_crystal.yy",},},
     {"id":{"name":"Tile_lvl3","path":"tilesets/Tile_lvl3/Tile_lvl3.yy",},},

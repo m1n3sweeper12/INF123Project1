@@ -64,6 +64,8 @@
     {"name":"spr_tile2","order":14,"path":"sprites/spr_tile2/spr_tile2.yy",},
     {"name":"spr_tilelvl3","order":20,"path":"sprites/spr_tilelvl3/spr_tilelvl3.yy",},
     {"name":"spr_tileset_forest","order":24,"path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},
+    {"name":"spr_white_idle","order":30,"path":"sprites/spr_white_idle/spr_white_idle.yy",},
+    {"name":"spr_white_jump","order":31,"path":"sprites/spr_white_jump/spr_white_jump.yy",},
     {"name":"Tile_","order":2,"path":"tilesets/Tile_/Tile_.yy",},
     {"name":"Tile_crystal","order":1,"path":"tilesets/Tile_crystal/Tile_crystal.yy",},
     {"name":"Tile_lvl3","order":4,"path":"tilesets/Tile_lvl3/Tile_lvl3.yy",},
