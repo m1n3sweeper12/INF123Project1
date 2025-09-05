@@ -41,6 +41,10 @@ max_health = 100;
 
 // Invincibility cooldown
 invincible = 0;
-//inPain = false;
+
+// Fairy Type:
+	// 0 is forest
+	// 1 is air
+fairy_type = 0; 
 
 alpha_val = 0;
