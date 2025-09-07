@@ -80,7 +80,6 @@ if (canDash = false){
 
 // check if player has jumped max count
 // if so, lock jumps until platform collision
-
 if(jumpCnt >= maxJumps) {
 	jumpCnt = maxJumps;
 	canJump = false;
@@ -137,13 +136,31 @@ if not(array_length(collision) == 0) {
 		}
 	}
 	
-} else {
-	// check if player walked off tile
-	if not(place_meeting(x, y + height, obj_tile)) {
-		falling = true;
-	}
 }
 
+// handles player turning
+if(xvel < 0) {
+	image_xscale = -1;
+}
+
+if(xvel > 0) {
+	image_xscale = +1;
+}
+
+if(keyboard_check(obj_game.up_control) and canJump) {
+	jump_timer += 0.02;
+}
+
+if(landed) {
+	jump_timer = 1;
+}
+
+// check if player has jumped max count
+// if so, lock jumps until platform collision
+if(jumpCnt >= maxJumps) {
+	jumpCnt = maxJumps;
+	canJump = false;
+}
 
 // create leaf particle trail
 part_timer--;
@@ -155,11 +172,10 @@ if(part_timer <= 0) {
 //checks players health
 if (health <= 0) {
     // Player dies
-    instance_destroy(); // or go to game over room
-    room_goto(level_1); 
+	obj_player.alarm[3] = 1; // alarm for player death
 }
+
 // Reduce invincibility timer every step
 if (invincible > 0) {
     invincible -= 1;
 }
-

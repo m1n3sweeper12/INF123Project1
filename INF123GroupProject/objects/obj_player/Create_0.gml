@@ -44,6 +44,8 @@ max_health = 100;
 // Invincibility cooldown
 invincible = 0;
 
+hurt_timer = 120;
+
 // Fairy Type:
 	// 0 is forest
 	// 1 is air
