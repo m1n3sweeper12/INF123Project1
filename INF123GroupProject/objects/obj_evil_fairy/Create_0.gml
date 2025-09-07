@@ -10,4 +10,4 @@ bombing = false;
 
 y += random_range(-5, 5);
 
-x_speed = random_range(1, 2);
+x_speed = random_range(2, 3);

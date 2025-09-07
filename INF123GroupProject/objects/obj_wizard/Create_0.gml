@@ -15,3 +15,7 @@ fairy_max = 5;
 wizard_health = 100;
 
 shake_timer = 0;
+
+
+fairy_timer = random_range(fairy_min, fairy_max);
+fairy_num = random_range(fairy_min, fairy_max);

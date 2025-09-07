@@ -1,4 +1,4 @@
-move_timer = 1500;
+move_timer = 900;
 
 if(active) {
 	obj_wizard.alarm[1] = 1;
