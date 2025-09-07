@@ -18,6 +18,5 @@ if(wizard_health <= 50) {
 		fairy_num--;
 	} else {
 		attacking = false;
-		show_debug_message("got here");
 	}
 }
