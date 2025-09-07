@@ -1,5 +1,4 @@
 if(move_timer == 0) {
-	show_debug_message("got here");
 	var new_x = random_range(100, room_width - 100);
 	var new_y = random_range(100, room_height - 100);
 	
@@ -13,6 +12,11 @@ if(move_timer == 0) {
 
 	x = instance_nearest(new_x, new_y, obj_trigger_spots).x;
 	y = instance_nearest(new_x, new_y, obj_trigger_spots).y;
+	
+	sprite_index = spr_gem_powerup;
+	image_index = 0;
+	
+	audio_play_sound(sfx_trigger_up, 1, false);
 	
 	active = true;
 	move_timer = -1;

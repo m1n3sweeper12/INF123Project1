@@ -3,8 +3,9 @@ if(wizard_health <= 50) {
 	
 	if(fairy_timer > 0) {
 		instance_create_layer(x, y, "Instances", obj_evil_fairy);
-	} else {
+	} else if(attacking) {
 		attacking = false;
+		fairy_timer = random_range(fairy_min, fairy_max);
 	}
 	
 	fairy_timer--;
@@ -16,7 +17,10 @@ if(wizard_health <= 50) {
 		instance_create_layer(x, y, "Instances", obj_evil_fairy);
 		fairy_timer = random_range(fairy_min, fairy_max);
 		fairy_num--;
-	} else {
+	} else if(attacking){
 		attacking = false;
+		fairy_min++;
+		fairy_max++;
+		fairy_timer = random_range(fairy_min, fairy_max);
 	}
 }
