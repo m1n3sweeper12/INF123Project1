@@ -135,7 +135,11 @@ if not(array_length(collision) == 0) {
 			KillDash();
 		}
 	}
-	
+} else {
+	// check if player walked off tile
+	if not(place_meeting(x, y + height, obj_tile)) {
+		falling = true;
+	}
 }
 
 // handles player turning
