@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_forest",
+  "%Name":"ts_forest_background",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
         0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -11,7 +11,7 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_forest",
+  "name":"ts_forest_background",
   "out_columns":15,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -22,8 +22,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tileset_forest",
-    "path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",
+    "name":"spr_tileset_forest_background",
+    "path":"sprites/spr_tileset_forest_background/spr_tileset_forest_background.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

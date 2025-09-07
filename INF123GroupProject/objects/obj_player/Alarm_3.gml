@@ -7,7 +7,8 @@ hurt_timer--;
 
 if(hurt_timer <= 0) {
 	instance_destroy(); // or go to game over room
-    room_goto(level_1);
+    room_restart();
 }
 
 // NOTE: this is probably a temporary spot for this, since ideally it would just play after the animation ends
+
