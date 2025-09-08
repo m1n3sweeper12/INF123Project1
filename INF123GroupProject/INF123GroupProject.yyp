@@ -105,6 +105,7 @@
     {"id":{"name":"spr_wizard_temp","path":"sprites/spr_wizard_temp/spr_wizard_temp.yy",},},
     {"id":{"name":"Tile_","path":"tilesets/Tile_/Tile_.yy",},},
     {"id":{"name":"Tile_crystal","path":"tilesets/Tile_crystal/Tile_crystal.yy",},},
+    {"id":{"name":"ts_forest_background","path":"tilesets/ts_forest_background/ts_forest_background.yy",},},
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
   ],
   "resourceType":"GMProject",
