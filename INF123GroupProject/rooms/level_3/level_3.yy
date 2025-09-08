@@ -5,7 +5,6 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
-<<<<<<< Updated upstream
   "instanceCreationOrder":[
     {"name":"inst_729EBA4B","path":"rooms/level_3/level_3.yy",},
     {"name":"inst_39C8E17E","path":"rooms/level_3/level_3.yy",},
@@ -126,14 +125,3 @@
   },
   "volume":1.0,
 }
-=======
-  "instanceCreationOrder":[],
-  "layers":[],
-  "name":"Instances",
-  "properties":[],
-  "resourceType":"GMRInstanceLayer",
-  "resourceVersion":"2.0",
-  "userdefinedDepth":false,
-  "visible":true,
-}
->>>>>>> Stashed changes
