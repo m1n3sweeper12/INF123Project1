@@ -2,6 +2,7 @@
 
 // plays portal entrance sound
 if(pixels == 1) {
+	audio_stop_all();
 	audio_play_sound(sfx_teleport_out, 1, false);
 }
 
