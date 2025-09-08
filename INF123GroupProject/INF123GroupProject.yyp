@@ -56,6 +56,7 @@
     {"id":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
     {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
     {"id":{"name":"level_3","path":"rooms/level_3/level_3.yy",},},
+    {"id":{"name":"level_test","path":"rooms/level_test/level_test.yy",},},
     {"id":{"name":"sfx_button_click","path":"sounds/sfx_button_click/sfx_button_click.yy",},},
     {"id":{"name":"sfx_die","path":"sounds/sfx_die/sfx_die.yy",},},
     {"id":{"name":"sfx_fairy_bomb","path":"sounds/sfx_fairy_bomb/sfx_fairy_bomb.yy",},},
