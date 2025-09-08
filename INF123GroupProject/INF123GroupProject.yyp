@@ -97,6 +97,7 @@
     {"id":{"name":"spr_tile_collision","path":"sprites/spr_tile_collision/spr_tile_collision.yy",},},
     {"id":{"name":"spr_tile1","path":"sprites/spr_tile1/spr_tile1.yy",},},
     {"id":{"name":"spr_tile2","path":"sprites/spr_tile2/spr_tile2.yy",},},
+    {"id":{"name":"spr_tileset_forest_background","path":"sprites/spr_tileset_forest_background/spr_tileset_forest_background.yy",},},
     {"id":{"name":"spr_tileset_forest","path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},},
     {"id":{"name":"spr_trigger_spots","path":"sprites/spr_trigger_spots/spr_trigger_spots.yy",},},
     {"id":{"name":"spr_white_idle","path":"sprites/spr_white_idle/spr_white_idle.yy",},},
