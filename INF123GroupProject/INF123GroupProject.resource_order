@@ -16,6 +16,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
@@ -30,6 +31,8 @@
 =======
 >>>>>>> Stashed changes
     {"name":"fnt_fairy","order":1,"path":"fonts/fnt_fairy/fnt_fairy.yy",},
+=======
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"obj_button","order":11,"path":"objects/obj_button/obj_button.yy",},
     {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_evil_fairy","order":10,"path":"objects/obj_evil_fairy/obj_evil_fairy.yy",},
@@ -37,6 +40,10 @@
     {"name":"obj_homescreen","order":16,"path":"objects/obj_homescreen/obj_homescreen.yy",},
     {"name":"obj_key","order":4,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_menu","order":12,"path":"objects/obj_menu/obj_menu.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"obj_miniboss_idle","order":10,"path":"objects/obj_miniboss_idle/obj_miniboss_idle.yy",},
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"obj_obstacle","order":5,"path":"objects/obj_obstacle/obj_obstacle.yy",},
     {"name":"obj_portal","order":6,"path":"objects/obj_portal/obj_portal.yy",},
     {"name":"obj_portal2","order":8,"path":"objects/obj_portal2/obj_portal2.yy",},
@@ -48,35 +55,62 @@
     {"name":"homescreen","order":3,"path":"rooms/homescreen/homescreen.yy",},
     {"name":"level_2","order":1,"path":"rooms/level_2/level_2.yy",},
     {"name":"level_3","order":2,"path":"rooms/level_3/level_3.yy",},
+    {"name":"sfx_button_click","order":5,"path":"sounds/sfx_button_click/sfx_button_click.yy",},
     {"name":"sfx_jump","order":1,"path":"sounds/sfx_jump/sfx_jump.yy",},
     {"name":"sfx_land","order":2,"path":"sounds/sfx_land/sfx_land.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"sfx_teleport_in","order":4,"path":"sounds/sfx_teleport_in/sfx_teleport_in.yy",},
+    {"name":"sfx_teleport_out","order":3,"path":"sounds/sfx_teleport_out/sfx_teleport_out.yy",},
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"spi_miniboss","order":18,"path":"sprites/spi_miniboss/spi_miniboss.yy",},
     {"name":"spr_background","order":4,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_backgroundcrystal","order":11,"path":"sprites/spr_backgroundcrystal/spr_backgroundcrystal.yy",},
     {"name":"spr_backgroundlvl1","order":15,"path":"sprites/spr_backgroundlvl1/spr_backgroundlvl1.yy",},
+<<<<<<< HEAD
     {"name":"spr_bgrock3","order":24,"path":"sprites/spr_bgrock3/spr_bgrock3.yy",},
+=======
+    {"name":"spr_bgrock3","order":25,"path":"sprites/spr_bgrock3/spr_bgrock3.yy",},
+    {"name":"spr_button","order":28,"path":"sprites/spr_button/spr_button.yy",},
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"Spr_crystalpath","order":12,"path":"sprites/Spr_crystalpath/Spr_crystalpath.yy",},
     {"name":"spr_enemy_temp","order":1,"path":"sprites/spr_enemy_temp/spr_enemy_temp.yy",},
     {"name":"spr_green_idle","order":3,"path":"sprites/spr_green_idle/spr_green_idle.yy",},
     {"name":"spr_green_jump","order":2,"path":"sprites/spr_green_jump/spr_green_jump.yy",},
+<<<<<<< HEAD
+=======
+    {"name":"spr_homescreen_bg","order":29,"path":"sprites/spr_homescreen_bg/spr_homescreen_bg.yy",},
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"spr_key_held","order":9,"path":"sprites/spr_key_held/spr_key_held.yy",},
     {"name":"spr_key","order":5,"path":"sprites/spr_key/spr_key.yy",},
     {"name":"spr_lava_tiles","order":22,"path":"sprites/spr_lava_tiles/spr_lava_tiles.yy",},
     {"name":"spr_leaf","order":10,"path":"sprites/spr_leaf/spr_leaf.yy",},
     {"name":"spr_lvl3BG","order":17,"path":"sprites/spr_lvl3BG/spr_lvl3BG.yy",},
     {"name":"spr_miniboss_jump","order":19,"path":"sprites/spr_miniboss_jump/spr_miniboss_jump.yy",},
+<<<<<<< HEAD
     {"name":"spr_mist","order":25,"path":"sprites/spr_mist/spr_mist.yy",},
     {"name":"spr_obstacle","order":6,"path":"sprites/spr_obstacle/spr_obstacle.yy",},
     {"name":"spr_portal","order":7,"path":"sprites/spr_portal/spr_portal.yy",},
     {"name":"spr_portal2","order":8,"path":"sprites/spr_portal2/spr_portal2.yy",},
     {"name":"Spr_rockbg1","order":26,"path":"sprites/Spr_rockbg1/Spr_rockbg1.yy",},
+=======
+    {"name":"spr_mist","order":26,"path":"sprites/spr_mist/spr_mist.yy",},
+    {"name":"spr_obstacle","order":6,"path":"sprites/spr_obstacle/spr_obstacle.yy",},
+    {"name":"spr_portal","order":7,"path":"sprites/spr_portal/spr_portal.yy",},
+    {"name":"spr_portal2","order":8,"path":"sprites/spr_portal2/spr_portal2.yy",},
+    {"name":"Spr_rockbg1","order":27,"path":"sprites/Spr_rockbg1/Spr_rockbg1.yy",},
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"spr_rockbglvl3","order":23,"path":"sprites/spr_rockbglvl3/spr_rockbglvl3.yy",},
     {"name":"spr_tile_collision","order":16,"path":"sprites/spr_tile_collision/spr_tile_collision.yy",},
     {"name":"spr_tile1","order":13,"path":"sprites/spr_tile1/spr_tile1.yy",},
     {"name":"spr_tile1lvl3","order":21,"path":"sprites/spr_tile1lvl3/spr_tile1lvl3.yy",},
     {"name":"spr_tile2","order":14,"path":"sprites/spr_tile2/spr_tile2.yy",},
     {"name":"spr_tilelvl3","order":20,"path":"sprites/spr_tilelvl3/spr_tilelvl3.yy",},
+<<<<<<< HEAD
     {"name":"spr_tileset_forest","order":6,"path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},
+=======
+    {"name":"spr_tileset_forest","order":24,"path":"sprites/spr_tileset_forest/spr_tileset_forest.yy",},
+>>>>>>> b9812f9445006e1034ae2ab2419c6a3a6a874c7a
     {"name":"Tile_","order":2,"path":"tilesets/Tile_/Tile_.yy",},
     {"name":"Tile_crystal","order":1,"path":"tilesets/Tile_crystal/Tile_crystal.yy",},
     {"name":"Tile_lvl3","order":4,"path":"tilesets/Tile_lvl3/Tile_lvl3.yy",},
