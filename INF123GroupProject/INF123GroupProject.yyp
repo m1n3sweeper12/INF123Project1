@@ -36,7 +36,10 @@
   "name":"INF123GroupProject",
   "resources":[
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"fnt_fairy","path":"fonts/fnt_fairy/fnt_fairy.yy",},},
     {"id":{"name":"title_font","path":"fonts/title_font/title_font.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
@@ -98,16 +101,22 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"roomId":{"name":"level_3","path":"rooms/level_3/level_3.yy",},},
     {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
     {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
     {"roomId":{"name":"homescreen","path":"rooms/homescreen/homescreen.yy",},},
 =======
+=======
+>>>>>>> Stashed changes
     {"roomId":{"name":"homescreen","path":"rooms/homescreen/homescreen.yy",},},
     {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
     {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
     {"roomId":{"name":"level_3","path":"rooms/level_3/level_3.yy",},},
     {"roomId":{"name":"level_test","path":"rooms/level_test/level_test.yy",},},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ],
   "templateType":"game",
