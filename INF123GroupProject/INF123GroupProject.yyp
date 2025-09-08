@@ -116,6 +116,7 @@
     {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
     {"roomId":{"name":"level_3","path":"rooms/level_3/level_3.yy",},},
     {"roomId":{"name":"level_test","path":"rooms/level_test/level_test.yy",},},
+],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
