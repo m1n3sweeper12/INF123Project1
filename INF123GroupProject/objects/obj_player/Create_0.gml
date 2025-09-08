@@ -12,11 +12,15 @@ width = 23;
 height = 32;
 
 // set player health
-health = 100;
+//health = 30;
 
 // variable to control jumps
 falling = true;
 landed = false;
+
+// variable to track player movement
+// added for portal animation
+canMove = true;
 
 // variables to track player jumps
 canJump = true;
@@ -32,7 +36,11 @@ part_timer = random_range(50, 100);
 
 text_timer = 500;
 //start health
-health = 100;     
-max_health = 100; 
+health = 100;
+max_health = 100;
+
 // Invincibility cooldown
 invincible = 0;
+//inPain = false;
+
+alpha_val = 0;
