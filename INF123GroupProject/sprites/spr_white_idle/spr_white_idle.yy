@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_white_idle",
-  "bboxMode":0,
-  "bbox_bottom":27,
+  "bboxMode":2,
+  "bbox_bottom":25,
   "bbox_left":4,
   "bbox_right":26,
   "bbox_top":4,

@@ -69,7 +69,11 @@ if(keyboard_check_pressed(obj_game.up_control) and (fairy_type = 1) and (landed 
 	falling = false;
 	yvel = 0;
 	gravity_mod = 0;
-	alarm_set(2, 15);
+	alarm_set(4, 15);
+}
+
+if(keyboard_check_released(obj_game.up_control) and (fairy_type = 1)){
+	KillDash();
 }
 
 // Resets speed when dash is off.
@@ -85,11 +89,18 @@ if(jumpCnt >= maxJumps) {
 	canJump = false;
 }
 
-if (fairy_type = 0){ //if forrect
- 
-}
-else if (fairy_type = 1){ //if air
 
+
+if (fairy_type = 0){ //if forrect
+	if(jumpCnt == 1){
+		plrsp = 3;
+	} else if(jumpCnt == 2){
+		plrsp = 2;
+	} else {
+		plrsp = 4;
+	}
+} else if (fairy_type = 1){ //if air
+	//temp
 }
 
 // check for collisions with tile object
