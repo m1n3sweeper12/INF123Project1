@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sfx_lvl3_bg.wav",
   "type":0,
-  "volume":0.75,
+  "volume":0.5,
 }
