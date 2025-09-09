@@ -18,8 +18,8 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
+  "sampleRate":44100,
   "soundFile":"sfx_lvl3_bg.wav",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }
