@@ -9,10 +9,14 @@ if(pixels > 1) {
 	var effect = layer_get_fx("Effect_1");
 	
 	fx_set_parameter(effect, "g_CellSize", pixels);
-	
-	show_debug_message(pixels);
 
 	pixels--;
 	
 	obj_game.alarm[1] = 1;
+} else {
+	if(room == level_1) {
+		audio_play_sound(sfx_lvl1_bg, 2, true);
+	} else if(room == level_3) {
+		audio_play_sound(sfx_lvl3_bg, 2, true);
+	}
 }
