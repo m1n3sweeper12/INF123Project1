@@ -76,7 +76,6 @@
     {"name":"spr_tile_collision","order":16,"path":"sprites/spr_tile_collision/spr_tile_collision.yy",},
     {"name":"spr_tile1","order":13,"path":"sprites/spr_tile1/spr_tile1.yy",},
     {"name":"spr_tile2","order":14,"path":"sprites/spr_tile2/spr_tile2.yy",},
-    {"name":"spr_tilelvl3","order":20,"path":"sprites/spr_tilelvl3/spr_tilelvl3.yy",},
     {"name":"Spr_tileset_crystal_cave","order":30,"path":"sprites/Spr_tileset_crystal_cave/Spr_tileset_crystal_cave.yy",},
     {"name":"spr_tileset_castle_background","order":43,"path":"sprites/spr_tileset_castle_background/spr_tileset_castle_background.yy",},
     {"name":"spr_tileset_castle","order":40,"path":"sprites/spr_tileset_castle/spr_tileset_castle.yy",},
