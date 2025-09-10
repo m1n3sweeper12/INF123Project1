@@ -1,2 +1,0 @@
-canDash = false;
-KillDash();

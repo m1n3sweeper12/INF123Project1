@@ -1,1 +1,0 @@
-obj_portal2.alarm[0] = 120;
