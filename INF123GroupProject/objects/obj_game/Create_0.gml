@@ -11,6 +11,6 @@ obj_game.alarm[1] = 1;
 pixels = 120;
 
 if(room == cutscene) {
-	var sequence = layer_sequence_create("Sequence", room_width/2, room_height/2, wizard_cutscene);
+	sequence = layer_sequence_create("Sequence", room_width/2, room_height/2, wizard_cutscene);
 	layer_sequence_play(sequence);
 }

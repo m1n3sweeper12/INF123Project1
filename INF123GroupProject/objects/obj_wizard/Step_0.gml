@@ -30,3 +30,7 @@ if(shake_timer > 0) {
 } else {
 	layer_set_visible("shake", false);
 }
+
+if(wizard_health <= 0) {
+	room_goto_next();
+}
