@@ -11,3 +11,5 @@ howto_text =
 "- Press SPACE to switch fairies\n" +
 "- Avoid the evil powers\n" +
 "Press SPACE or CLICK to begin your journey!";
+
+audio_play_sound(sfx_menu_bg, 1, true);

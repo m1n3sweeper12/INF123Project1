@@ -32,5 +32,6 @@ if(shake_timer > 0) {
 }
 
 if(wizard_health <= 0) {
+	audio_stop_all();
 	room_goto_next();
 }

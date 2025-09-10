@@ -27,5 +27,7 @@ else if (state == "story") {
 else if (state == "howto") {
     if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
         room_goto(level_1); //  first level
+		state = "title";
+		audio_stop_all();
     }
 }

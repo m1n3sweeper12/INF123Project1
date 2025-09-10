@@ -32,5 +32,5 @@
     "path":"sprites/spr_tile_collision/spr_tile_collision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

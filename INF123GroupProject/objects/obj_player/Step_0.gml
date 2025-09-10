@@ -180,8 +180,26 @@ if(jumpCnt >= maxJumps) {
 // create leaf particle trail
 part_timer--;
 if(part_timer <= 0) {
-	part_particles_burst(0, x, y - 16, leaf_trail);
-	part_timer = random_range(50, 100);
+	if(fairy_type == 0) {
+		part_particles_burst(0, x, y, leaf_trail);
+		part_timer = random_range(50, 100);
+	} else if(fairy_type == 1) {
+		part_particles_burst(0, x, y, cloud_trail);
+		part_timer = random_range(50, 100);
+	}
+}
+
+// controls heart bar sprites
+if(room == level_1 or room == level_2) {
+	if(health < 30) {
+		obj_hearts.sprite_index = spr_hearts_0;
+	} else if(health < 60) {
+		obj_hearts.sprite_index = spr_hearts_1;
+	} else if(health < 100) {
+		obj_hearts.sprite_index = spr_hearts_2;
+	} else {
+		obj_hearts.sprite_index = spr_hearts_3;
+	}
 }
 
 //checks players health
