@@ -36,7 +36,6 @@ else if (state == "menu") {
 
     // Button text
     var play_text  = "Play Story";
-    var fairy_text = "Choose Fairy";
     var exit_text  = "Exit to Safety";
 
     // Title outline
@@ -64,17 +63,12 @@ else if (state == "menu") {
         draw_set_color(make_color_rgb(80,200,120));
     } else draw_set_color(c_white);
     draw_text(cx, cy, play_text);
- // Choose Fairy button
-    if (point_in_rectangle(mouse_x, mouse_y, cx-120, cy+20, cx+120, cy+70)) {
-        draw_set_color(make_color_rgb(200,150,250));
-    } else draw_set_color(c_white);
-    draw_text(cx, cy + 50, fairy_text);
 
   // Exit button
     if (point_in_rectangle(mouse_x, mouse_y, cx-120, cy+90, cx+120, cy+140)) {
         draw_set_color(make_color_rgb(150,180,250));
     } else draw_set_color(c_white);
-    draw_text(cx, cy + 100, exit_text);
+    draw_text(cx, cy + 50, exit_text);
 }
 // STORY SCREEN
 else if (state == "story") {
