@@ -12,7 +12,7 @@ fairy_min = 3;
 
 fairy_max = 5;
 
-wizard_health = 10;
+wizard_health = 100;
 
 shake_timer = 0;
 
