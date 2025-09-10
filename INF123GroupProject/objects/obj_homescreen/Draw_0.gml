@@ -65,7 +65,7 @@ else if (state == "menu") {
     draw_text(cx, cy, play_text);
 
   // Exit button
-    if (point_in_rectangle(mouse_x, mouse_y, cx-120, cy+90, cx+120, cy+140)) {
+    if (point_in_rectangle(mouse_x, mouse_y, cx-120, cy+20, cx+120, cy+70)) {
         draw_set_color(make_color_rgb(150,180,250));
     } else draw_set_color(c_white);
     draw_text(cx, cy + 50, exit_text);
