@@ -14,9 +14,9 @@ if(pixels > 1) {
 	
 	obj_game.alarm[1] = 1;
 } else {
-	if((room == level_test) or (room == level_1)) {
+	if(room == level_1) {
 		audio_play_sound(sfx_lvl1_bg, 2, true);
-	} else if(room = level_3) {
+	} else if(room == level_3) {
 		audio_play_sound(sfx_lvl3_bg, 2, true);
 	}
 }
