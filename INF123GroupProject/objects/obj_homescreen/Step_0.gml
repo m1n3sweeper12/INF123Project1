@@ -14,11 +14,7 @@ else if (state == "menu") {
     if (mouse_check_button_pressed(mb_left)) {
         if (point_in_rectangle(mouse_x, mouse_y, play_left, play_top, play_right, play_bottom)) {
             state = "story";
-        }
-        if (point_in_rectangle(mouse_x, mouse_y, fairy_left, fairy_top, fairy_right, fairy_bottom)) {
-            // later: add fairy selection screen
-            show_message("Fairy selection coming soon!");
-        }
+		}
         if (point_in_rectangle(mouse_x, mouse_y, exit_left, exit_top, exit_right, exit_bottom)) {
             game_end();
         }

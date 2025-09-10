@@ -7,8 +7,7 @@ story_text =
 
 howto_text = 
 "How to Play:\n\n" +
-"- Use arrows or WASD to move\n" +
-"- Press SPACE to cast magic\n" +
+"- Use WASD to move\n" +
+"- Press SPACE to switch fairies\n" +
 "- Avoid the evil powers\n" +
-"- Collect fairy dust to recharge\n\n" +
 "Press SPACE or CLICK to begin your journey!";
